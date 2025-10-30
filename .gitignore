@@ -1,0 +1,38 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.log
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment files
+.env
+.env.*
+
+# Project outputs
+output_videos/
+training/
+
+# Keep folder but ignore contents of stubs
+stubs/*
+!stubs/.gitkeep
+
+# Models: ignore all, keep only files ending with _2.pt
+models/*
+!models/*_2.pt
+
+# Input videos: ignore all, keep only the first three
+input_videos/*
+!input_videos/video_1.mp4
+!input_videos/video_2.mp4
+!input_videos/video_3.mp4
